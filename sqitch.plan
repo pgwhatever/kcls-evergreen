@@ -2,3 +2,4 @@
 %project=kcls-evergreen
 %uri=https://github.com/pgwhatever/kcls-evergreen/
 
+vanilla_evergreen_db 2015-06-24T16:20:02Z pgwhatever <michael@commandprompt.com> # Add vanilla evergreen database with all objects.

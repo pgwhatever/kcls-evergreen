@@ -1,21 +1,13 @@
+-- Deploy kcls-evergreen:vanilla_evergreen_db to pg
+
+BEGIN;
+
+
 --
 -- PostgreSQL database dump
 --
 
 \connect evergreen_jd
-
-SET statement_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SET check_function_bodies = false;
-SET client_min_messages = warning;
-
-DROP DATABASE evergreen_jd;
-
-CREATE DATABASE evergreen_jd2 WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C' LC_CTYPE = 'C';
-ALTER DATABASE evergreen_jd2 OWNER TO postgres;
-
-\connect evergreen_jd2
 
 SET statement_timeout = 0;
 SET client_encoding = 'UTF8';
@@ -59470,4 +59462,6 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 --
 -- PostgreSQL database dump complete
 --
+
+COMMIT;
 
