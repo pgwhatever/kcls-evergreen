@@ -12,12 +12,12 @@ SET client_min_messages = warning;
 -- Name: evergreen; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE evergreen WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C' LC_CTYPE = 'C';
+CREATE DATABASE evergreen_prd WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C' LC_CTYPE = 'C';
 
 
-ALTER DATABASE evergreen OWNER TO postgres;
+ALTER DATABASE evergreen_prd OWNER TO postgres;
 
-\connect evergreen
+\connect evergreen_prd
 
 SET statement_timeout = 0;
 SET client_encoding = 'UTF8';
