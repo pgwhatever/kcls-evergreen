@@ -4,3 +4,4 @@
 
 vanilla_evergreen_db 2015-06-24T16:20:02Z pgwhatever <michael@commandprompt.com> # Add vanilla evergreen database with all objects.
 additional_schemas [vanilla_evergreen_db] 2015-06-25T01:19:31Z pgwhatever <michael@commandprompt.com> # Creates additional schemas.
+additional_extensions [vanilla_evergreen_db] 2015-06-25T13:59:47Z pgwhatever <michael@commandprompt.com> # Creates additional extensions.
